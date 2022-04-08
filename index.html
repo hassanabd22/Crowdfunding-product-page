@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Crowdfunding product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top p-3">
+    <div class="container">
+      <img src="./images/logo.svg" alt="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./images/icon-hamburger.svg" alt="">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link me-3" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section>
+      <!-- <img src="./images/image-hero-mobile.jpg" alt="mobile" class=""> -->
+      <img src="./images/image-hero-desktop.jpg" alt="hero">
+    </section>
+    <div class="box-1 box mt-lg-4">
+      <img src="./images/logo-mastercraft.svg" alt="mastercraft" class="abs">
+      <h1>Mastercraft Bamboo Monitor Riser</h1>
+      <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+      <div class="row mt-5">
+        <a href="#" class="btn-green  col-lg-4 col-8">Back this project</a>
+        <div class="book-mark col-3 ms-auto">
+          <img src="./images/icon-bookmark.svg" alt="bookmark" class="">
+          <span>Bookmark</span>
+        </div>
+      </div>
+    </div>
+    <div class="box box-2">
+        <div class="row">
+          <div class="number col-lg-4 ">
+            <h2>$89,914 </h2>
+            <p>of $100,000 backed</p>
+          </div>
+          <div class="number col-lg-4 ">
+            <h2>5,007 </h2>
+            <p>total backers</p>
+          </div>
+          <div class="number col-lg-4 ">
+            <h2>56</h2>
+            <p>days left</p>
+          </div>
+        </div>
+        <div class="progress mt-4">
+          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+    <div class="box box-3">
+      <h3 class="mb-4">About this project</h3>
+      <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
+        to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
+        your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
+        <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
+          to allow notepads, pens, and USB sticks to be stored under the stand.
+        </p>
+        <div class="card-1 mt-5 p-4">
+          <div class="row">
+            <h4 class="col-sm-12 col-lg-8">Bamboo Stand</h4>
+            <p class="green col-lg-4 col-xs-6">Pledge $25 or more</p>
+          </div>
+          <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
+            you’ll be added to a special Backer member list.
+          </p>
+          <div class="row mt-3">
+            <p class="num col-sm-12 col-lg-9">101 <span>left</span></p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-green col-lg-3 col-8 p-2 text-center pt-2">Select Reward</a>
+          </div>
+        </div>
+        <div class="card-1 mt-3 p-4">
+          <div class="row">
+            <h4 class="col-8">Black Edition Stand</h4>
+            <p class="green col-lg-4 col-12">Pledge $75 or more</p>
+          </div>
+          <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+            member list. Shipping is included.
+          </p>
+          <div class="row mt-3">
+            <p class="num col-sm-12 col-lg-9">64 <span>left</span></p>
+            <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal"  class="btn-green col-lg-3 col-8 p-2 p-2 text-center pt-2">Select Reward</a>
+          </div>
+        </div>
+        <div class="card-1 mt-3 p-4 opacity-50">
+          <div class="row">
+            <h4 class="col-8">Mahogany Special Edition</h4>
+            <p class="green col-lg-4 col-12">Pledge $200 or more</p>
+          </div>
+          <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
+            to our Backer member list. Shipping is included.
+          </p>
+          <div class="row mt-3">
+            <p class="num col-sm-12 col-lg-9">0 <span>left</span></p>
+            <button class="btn-green btn col-lg-3 col-8 p-2 text-center dis pt-2" disabled >Out of Stock</button>
+          </div>
+        </div>
+    </div>
+    
+  </main>
+  <!-- Selection modal start -->
+  <!-- Success modal start -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Back this project</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+         <div class="card-1 mt-5 p-4">
+          <div class="row">
+            <h4 class="col-sm-12 col-lg-8">Bamboo Stand</h4>
+            <p class="green col-lg-4 col-xs-6">Pledge $25 or more</p>
+          </div>
+          <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
+            you’ll be added to a special Backer member list.
+          </p>
+          <div class="row mt-3">
+            <p class="num col-sm-12 col-lg-9">101 <span>left</span></p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#seccessModal" class="btn-green col-lg-3 col-8 p-2 text-center pt-2">Continue</a>
+          </div>
+        </div>
+        <div class="card-1 mt-3 p-4">
+          <div class="row">
+            <h4 class="col-8">Black Edition Stand</h4>
+            <p class="green col-lg-4 col-12">Pledge $75 or more</p>
+          </div>
+          <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+            member list. Shipping is included.
+          </p>
+          <div class="row mt-3">
+            <p class="num col-sm-12 col-lg-9">64 <span>left</span></p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#seccessModal" class="btn-green col-lg-3 col-8 p-2 p-2 text-center pt-2">Continue</a>
+          </div>
+        </div>
+        <div class="card-1 mt-3 p-4">
+          <div class="row">
+            <h4 class="col-8">Black Edition Stand</h4>
+            <p class="green col-lg-4 col-12">Pledge $75 or more</p>
+          </div>
+          <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
+            member list. Shipping is included.
+          </p>
+          <div class="row mt-3">
+            <p class="num col-sm-12 col-lg-9">64 <span>left</span></p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#seccessModal" class="btn-green col-lg-3 col-8 p-2 p-2 text-center pt-2">Continue</a>
+          </div>
+        </div>
+        <div class="card-1 mt-3 p-4 opacity-50">
+          <div class="row">
+            <h4 class="col-8">Mahogany Special Edition</h4>
+            <p class="green col-lg-4 col-12">Pledge $200 or more</p>
+          </div>
+          <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
+            to our Backer member list. Shipping is included.
+          </p>
+          <div class="row mt-3">
+            <p class="num col-sm-12 col-lg-9">0 <span>left</span></p>
+            <button class="btn-green btn col-lg-3 col-8 p-2 text-center dis pt-2" disabled >Continue</button>
+          </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" tabindex="-1" id="seccessModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <img class="mx-auto"  src="./images/icon-check.svg" alt="check">
+          
+        </div>
+        <div class="modal-body mx-auto text-center  ">
+          <h5 class="modal-title mx-auto">Thanks for your support!</h5>
+          <p>Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+            an email once our campaign is completed.</p>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="btn-green px-5 mx-auto" data-bs-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success modal end -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
